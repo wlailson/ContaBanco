@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
-        double saldo = 237.48;
-        //recebendo parametros
+        double saldo = 237.48;  
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
-        
+
+         //recebendo parametros
         System.out.println("Por favor, digite o número da Agência");
         String agencia =  scanner.next() ;
 
